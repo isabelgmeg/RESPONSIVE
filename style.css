@@ -1,0 +1,31 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+    .header {
+        background-color: rgb(27, 62, 116);
+        color: white;
+    }
+    
+    .hero  {
+        background-color: red;
+        color: white;
+
+    }
+
+    .contenido {
+        background-color: green;
+        color: white;
+    }
+
+    .aside{
+        background-color: purple;
+        color: white;
+    }
+
+    .footer{
+        background-color: gray;
+        color: white;
+    }
