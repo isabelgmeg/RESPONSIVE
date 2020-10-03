@@ -1,8 +1,8 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
-
 
     .header {
         background-color: rgb(27, 62, 116);
@@ -29,3 +29,39 @@ body {
         background-color: gray;
         color: white;
     }
+
+/*A partir de aquí los elementos media para hacer la webapp responsive para tablet y desktop.*/
+
+@media screen and (min-width: 768px) {
+
+    #columns {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contenido {
+        width: 75%;
+    }
+    .aside {
+        width: 25%;
+
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+
+    #columns {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .contenido {
+        width: 75%;
+    }
+    .aside {
+        width: 25%;
+
+    }
+  }
+
+/*Falta añadir estilos a elementos y texto*/
